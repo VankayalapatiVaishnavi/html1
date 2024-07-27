@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	n1:<input type="number" id="mynum" value="">
+	n2:<input type="number" id="mynum1" value="">
+	out:<input type="number"id="output" value="" onclick="vaish()">
+	<pre></pre>
+	<button onclick="vaish()">"submit "</button>
+
+</body>
+<script>
+	function vaish()
+	{
+		var a=document.getElementById('mynum').value;
+		var b=document.getElementById('mynum1').value;
+		var c=a*b;
+		//alert(a*b);
+		document.getElementById('output').value=c;
+	}
+</script>'
+</html>
